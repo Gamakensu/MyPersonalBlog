@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Personal Blog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>My Personal Blog</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+     
+        <section id="home">
+            <div class="hero-content">
+                <p class="hero-greeting">Hi, I'm</p>
+                <h2>Carl Angelou A. Sanipa</h2>
+                <p class="hero-role">Student · Gamer · Aspiring Game Developer</p>
+                <p class="hero-text">Welcome to my personal blog, where I share my life, my hobbies, and what I'm learning along the way.</p>
+
+              <div class="hero-buttons">
+    <a href="#about" class="button">About Me</a>
+    <a href="#blog" class="button button-outline">Read My Posts</a>
+    <a href="#contact" class="button button-outline">Contact Me</a>
+</div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-wrapper">
+
+                <div class="about-intro">
+                    <img src="MyProfile.jpg" alt="Carl Angelou A. Sanipa" class="avatar">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>My name is <strong>Carl Angelou A. Sanipa</strong>.</p>
+                        <p>I am 17 years old.</p>
+                        <p>I am a student at QC University.</p>
+                    </div>
+                </div>
+
+                <div class="facts">
+                    <div class="fact">
+                        <span class="fact-number">17</span>
+                        <span class="fact-label">Years Old</span>
+                    </div>
+                    <div class="fact">
+                        <span class="fact-number">QC</span>
+                        <span class="fact-label">University</span>
+                    </div>
+                    <div class="fact">
+                        <span class="fact-number">3</span>
+                        <span class="fact-label">Favorite Hobbies</span>
+                    </div>
+                </div>
+
+                <h3>Currently</h3>
+                <ul class="currently">
+                    <li>🎓 Studying at QC University</li>
+                    <li>🎮 Creating an Online Game</li>
+                    <li>📖 Reading a new book</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section id="blog">
+            <div class="blog-wrapper">
+                <h2>My Blog</h2>
+                <p class="blog-intro">Stories and thoughts from my everyday life.</p>
+
+                <div class="posts">
+                    <article class="post-card">
+                        <img src="Online Game.png" alt="My online game" class="post-img">
+                        <span class="post-tag">Game Dev</span>
+                        <h3>Creating My Own Online Game</h3>
+                        <p class="post-date">October 1, 2026</p>
+                        <p>I started building my own online game from scratch. Here's how I came up with the idea and what I've learned so far.</p>
+                        <a href="#" class="read-more">Read more →</a>
+                    </article>
+
+                    <article class="post-card">
+                        <img src="Playing.jpg" alt="Playing Games" class="post-img">
+                        <span class="post-tag">Gaming</span>
+                        <h3>Games I Can't Stop Playing</h3>
+                        <p class="post-date">September 24, 2026</p>
+                        <p>Write a short preview of your post here. Two or three sentences is enough.</p>
+                        <a href="#" class="read-more">Read more →</a>
+                    </article>
+
+                    <article class="post-card">
+                        <img src="The Best Book.jpg" alt="Favourite Book" class="post-img">
+                        <span class="post-tag">Books</span>
+                        <h3>The Best Book I Read This Year</h3>
+                        <p class="post-date">September 15, 2026</p>
+                        <p>Write a short preview of your post here. Two or three sentences is enough.</p>
+                        <a href="#" class="read-more">Read more →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+      
+        <section id="contact">
+            <div class="contact-wrapper">
+                <h2>Contact Me</h2>
+                <p class="contact-intro">Have a question or just want to say hi? Send me a message.</p>
+
+                <div class="contact-grid">
+
+                    <div class="contact-info">
+                        <div class="info-card">
+                            <span class="info-icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>carlangelousanipa85@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <span class="info-icon">📍</span>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Quezon City, Philippines</p>
+                            </div>
+                        </div>
+                        <div class="info-card">
+                            <span class="info-icon">🎓</span>
+                            <div>
+                                <h4>School</h4>
+                                <p>QC University</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" action="mailto:carlangelousanipa85@gmail.com" method="post" enctype="text/plain">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+                        <button type="submit" class="button">Send Message</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Carl Angelou A. Sanipa. All rights reserved.</p>
+         <p id="thankYou"></p>
+    <p id="copyright"></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
